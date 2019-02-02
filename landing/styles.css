@@ -1,0 +1,71 @@
+/*FONTS and OCLORS*/
+body {
+background: rgb(240,240,240);
+color: rgb(20, 20, 20);
+font-family: "Helvetica";
+margin: 0px;
+}
+h1	{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	color: #F24557;
+	text-align: center;
+}
+
+h2 {
+	font-size: 18px;
+}
+a {
+	text-decoration: none;
+	color: green;
+}
+
+a: hover {
+	text-decoration: none;
+	color: red;
+}
+/*CUSTOM DESIGN*/
+#banner {
+	background-image: url("https://unsplash.it/1300/600?random");
+	background-size: cover;
+	padding: 150px 0px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 5px black;
+}
+
+#banner h1 {
+	color: white;
+	font-size: 50px;
+	text-shadow: 0.3px 0.3px 0.3px gray;
+}
+
+#banner p {
+	color: white;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.section {
+	padding: 50px;
+	text-align: center;
+	font-weight: lighter;
+}
+
+#footer {
+	font-size: 30px;
+	background: rgb(30, 30, 30);
+	color: lightgray;
+	padding: 50px;
+}
+#footer a {
+	font-size: 15px;
+	color: lightgrey;
+}
+#footer a:hover {
+	color: white;
+}
+#myface	{
+	
+	padding: 20px;
+}
